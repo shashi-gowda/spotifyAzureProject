@@ -1,0 +1,9 @@
+{
+	"name": "spotifyadfsr",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c462d068-b584-4070-9a71-3410e9e11c03",
+		"tenantId": "fdba51c9-2b30-41ac-ad52-31b75d601596"
+	}
+}
