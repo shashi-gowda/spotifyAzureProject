@@ -184,11 +184,11 @@
 												"parameters": {
 													"container": "bronze",
 													"folder": {
-														"value": "@pipeline().parameters.table",
+														"value": "@item().table",
 														"type": "Expression"
 													},
 													"file": {
-														"value": "@concat(pipeline().parameters.schema, '_', variables('current'))",
+														"value": "@concat(item().schema, '_', variables('current'))",
 														"type": "Expression"
 													}
 												}
